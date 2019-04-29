@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.nurasoft.zero.php">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="cn.nurasoft.zero.php.Welcome_Activity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main_Activity"/>
+        <activity android:name=".Functions_Activity"/>
+        <activity android:name=".Functions_List_Activity"/>
+        <activity android:name=".Key_words_Activity"/>
+        <activity android:name=".Namespaces_Activity"/>
+        <activity android:name=".Settings_Activity"/>
+        <activity android:name=".About_Me_Activity"/>
+        <activity android:name=".Tutorial_Activity"/>
+        <activity android:name=".Tutorial_List_Activity"/>
+        <activity android:name=".Namespaces_View_Activity" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:layout_marginBottom="10dp">
+        <ImageButton
+            android:layout_width="47dp"
+            android:layout_height="44dp"
+            android:id="@+id/_return"
+            android:background="@drawable/return1"
+            android:contentDescription="@string/return_button"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:textAlignment="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/Description"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:maxLines="8"
+            android:textStyle="italic"
+            android:textAlignment="viewStart"/>
+    </LinearLayout>
+    </ScrollView>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="3dp"
+    android:background="#565051"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="27dp"
+        android:orientation="horizontal"
+        android:textAlignment="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/parameters"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Parameters"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:textAlignment="center">
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="match_parent"
+            android:text="@string/return_type"
+            android:textSize="18sp"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/return_type"
+            android:textSize="16sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textAlignment="center"
+            android:textColor="#F7048C" />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:id="@+id/CodeView"
+        android:background="#565051"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/code"
+            android:textSize="16sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:maxLines="8"
+            android:textAlignment="textStart"
+            android:scrollbars="vertical"
+            android:textColor="#0000A0" />
+    </LinearLayout>
+    </ScrollView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#565051"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/extra"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:maxLines="4"
+            android:id="@+id/ex"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/extra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:scrollbars="vertical"
+            android:textAlignment="viewStart"
+            android:textColor="#000"
+            android:textSize="16sp" />
+    </LinearLayout>
+    </ScrollView>
+
+    </LinearLayout>
+
+
+

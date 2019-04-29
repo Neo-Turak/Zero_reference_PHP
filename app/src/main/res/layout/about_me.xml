@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/relative01"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  关于  "
+        android:layout_marginTop="10dp"
+        android:id="@+id/about"
+        android:gravity="center"
+
+        android:background="#34495E"
+        android:textStyle="bold|italic"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Statement:This APP is designed and developed by Nurahmat Turak.All used resources come from third party source ,details listed below:"
+        android:padding="8dip"
+        android:textColor="#3498DB"
+        android:layout_below="@id/about"
+        android:id="@+id/textView01"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView01"
+        android:text="Tutorial:      https://www.tutorialspoint.com"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/textView02"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView02"
+        android:text="Image source:     Google Image"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/textView03"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView03"
+        android:text="Functions: Microsoft Documents"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/textView04"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView04"
+        android:textColor="@color/colorAccent"
+        android:text="Namespaces:   Microsft Documents"
+        android:id="@+id/textView05"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  许 可 协 议   "
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:id="@+id/thanks"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/textView05"
+        android:background="#34495E"
+        android:layout_centerHorizontal="true"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thanks"
+        android:orientation="horizontal"
+        android:id="@+id/LL"
+        android:weightSum="1"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/apache_2_0_license"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#28B463"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LL"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/support_contact"
+        android:background="#34495E"
+        android:textStyle="bold|italic"
+        android:id="@+id/textView06"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/textView06"
+        android:background="#34495E"
+        />
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView06"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/alipay_logo"
+        android:id="@+id/img1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img3"
+        android:layout_below="@id/textView06"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="#123456"
+        android:id="@+id/txt1"
+        android:text="nurjan101@126.com"
+        />
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/textView06"
+        android:layout_toRightOf="@id/img1"
+        android:src="@drawable/paypal_logo"
+        android:id="@+id/img3"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/line2"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/txt1"
+        android:background="#1B4F72"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line2"
+        android:textAlignment="center"
+        android:src="@drawable/thankyou"
+        android:textColor="#112233"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="© 2018 Nurahmat DOE ALL RIGHTS RESERVED"
+            android:background="#FF8A11"
+            android:padding="8dip"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

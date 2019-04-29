@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Zero Refences for PHP</string>
+    <string name="linux_image">linux image</string>
+    <string name="general">Common</string>
+    <string name="bonus">functions</string>
+    <string name="query">Query</string>
+    <string name="command">Command:</string>
+    <string name="description">description</string>
+    <string name="key">KEY:</string>
+    <string name="line">line</string>
+    <string name="Return">Return</string>
+    <string name="return_button">return button</string>
+    <string name="settings">Settings</string>
+    <string name="search">Search</string>
+    <string name="empty">  </string>
+    <string name="copy_right">Copyright:All rights Reserved!</string>
+    <string name="parameters">Parameters</string>
+    <string name="return_type">return type:</string>
+    <string name="extra">Extra</string>
+    <string name="Key_words">Key Words</string>
+    <string name="about">About</string>
+    <string name="C_Sharp_key_words">PHP keywords</string>
+    <string name="support_contact"><![CDATA[Support & Contact]]></string>
+    <string name="tutorial">Tutorial</string>
+    <string name="namespaces">Namespaces</string>
+    <string name="ZERO">Zero References for PHP</string>
+    <string name="version">Version:</string>
+    <string name="pwd">ILOVEYOU</string>
+    <string name="namespace_name">Namespace name:</string>
+    <string name="desc">Description:</string>
+    <string name="apache_2_0_license">Apache 2.0 License</string>
+
+    <string-array name="key_words">
+        <item>abstract</item>
+        <item>as</item>
+        <item>base</item>
+        <item>bool</item>
+        <item>break</item>
+        <item>byte</item>
+        <item>case</item>
+        <item>catch</item>
+        <item>char</item>
+        <item>checked</item>
+        <item>class</item>
+        <item>const</item>
+        <item>continue</item>
+        <item>decimal</item>
+        <item>default</item>
+        <item>delegate</item>
+        <item>do</item>
+        <item>double</item>
+        <item>else</item>
+        <item>enum</item>
+        <item>event</item>
+        <item>explicit</item>
+        <item>extern</item>
+        <item>false</item>
+        <item>finally</item>
+        <item>fixed</item>
+        <item>float</item>
+        <item>for</item>
+        <item>foreach</item>
+        <item>goto</item>
+        <item>if</item>
+        <item>implicit</item>
+        <item>in</item>
+        <item>int</item>
+        <item>interface</item>
+        <item>internal</item>
+        <item>is</item>
+        <item>lock</item>
+        <item>long</item>
+        <item>namespace</item>
+        <item>new</item>
+        <item>null</item>
+        <item>object</item>
+        <item>operator</item>
+        <item>out</item>
+        <item>override</item>
+        <item>params</item>
+        <item>private</item>
+        <item>protected</item>
+        <item>public</item>
+        <item>readonly</item>
+        <item>ref</item>
+        <item>return</item>
+        <item>sbyte</item>
+        <item>sealed</item>
+        <item>short</item>
+        <item>sizeof</item>
+        <item>stackalloc</item>
+        <item>static</item>
+        <item>string</item>
+        <item>struct</item>
+        <item>switch</item>
+        <item>this</item>
+        <item>throw</item>
+        <item>true</item>
+        <item>try</item>
+        <item>typeof</item>
+        <item>unit</item>
+        <item>ulong</item>
+        <item>unchecked</item>
+        <item>unsafe</item>
+        <item>ushort</item>
+        <item>using</item>
+        <item>using static</item>
+        <item>virtual</item>
+        <item>void</item>
+        <item>volatile</item>
+        <item>while</item>
+    </string-array>
+
+    <string-array name="contextual_keywords">
+        <item>add</item>
+        <item>alias</item>
+        <item>ascending</item>
+        <item>async</item>
+        <item>await</item>
+        <item>descending</item>
+        <item>dynamic</item>
+        <item>from</item>
+        <item>get</item>
+        <item>global</item>
+        <item>group</item>
+        <item>into</item>
+        <item>join</item>
+        <item>let</item>
+        <item>nameof</item>
+        <item>orderby</item>
+        <item>partial(type)</item>
+        <item>partial(method)</item>
+        <item>remove</item>
+        <item>select</item>
+        <item>set</item>
+        <item>value</item>
+        <item>var</item>
+        <item>when(filter condition)</item>
+        <item>where(generic type constrain)</item>
+        <item>where(query clause)</item>
+        <item>yield</item>
+    </string-array>
+
+
+
+</resources>
+
