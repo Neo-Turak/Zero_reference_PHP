@@ -11,7 +11,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import android.view.Window;
 
@@ -54,7 +54,6 @@ public class Welcome_Activity extends Activity {
         dbhelper.CheckDir(context,new File("/data/data/"+context.getPackageName() + "/dbase/"));
 
         db = dbhelper.getReadableDatabase(getString(cn.nurasoft.zero.php.R.string.pwd));
-
 
             dbhelper.onUpgrade(db, 1, 2);
 

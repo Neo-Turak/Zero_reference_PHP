@@ -24,7 +24,7 @@ import java.util.ArrayList;
 
 public class DatabaseHelperClass extends SQLiteOpenHelper {
 
-    private static final String fileName = "cSharp.db";
+    private static final String fileName = "php.db";
     private String TAG ="TAG";
     private final static String pwd="ILOVEYOU";
     private static final int DB_VERSION = 1;   // 数据库版本
